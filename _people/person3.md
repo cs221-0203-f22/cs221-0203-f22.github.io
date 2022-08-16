@@ -1,6 +1,6 @@
 ---
-name: "TBD"
+name: "Anshaj Vats"
 role: "Teaching Assistant"
-email: "user3@example.com"
-office_hours: "TBD in CS Labs"
+email: "Anshaj Vats"
+office_hours: "TBD in HR 411/413"
 ---
