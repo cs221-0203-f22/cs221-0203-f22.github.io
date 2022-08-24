@@ -3,7 +3,7 @@ layout: assignment
 due: 2022-08-29 23:59:59 -0800
 permalink: assignments/lab01.html
 title: Lab01 - Environment Setup
-github_url: https://classroom.github.com/a/b-bj4o2L
+github_url: https://classroom.github.com/a/Kls4bqkw
 ---
 
 ## Step 1: Choose a terminal app for your laptop
