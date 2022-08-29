@@ -3,7 +3,7 @@ layout: assignment
 due: 2022-02-07 23:59:59 -0800
 permalink: assignments/lab02.html
 title: Lab02 - Strings
-github_url: https://classroom.github.com/a/Ran8PjX1
+github_url: https://classroom.github.com/a/jtnErzsf
 ---
 ## Requirements
 1. You will develop the C code and a `Makefile` which builds one executable
@@ -12,7 +12,7 @@ called `lab02` (case sentitive) for the parts described below
 
 ## Given
 1. You must clone my [autograder repo](https://github.com/phpeterson-usf/autograder) 
-and the [test cases repo](https://github.com/cs221-s22/tests) for this class 
+and the [test cases repo](https://github.com/cs221-0203-f22/tests) for this class 
 into your home directory on the lab systems
 1. The `make` program is included on the lab systems so you do not have to 
 install it
@@ -39,7 +39,4 @@ $ ./lab02 abbabb bc
 You may use the C library function `strstr()` if you wish. `char *strstr(char *a, char *b)` returns a pointer to the first occurrence of `b` if `b` occurs in `a`, or `NULL` if `b` does not occur in `a`
 
 ## Rubric
-1. 80 pts: credible effort at source code and `Makefile`
-1. 90 pts: passes Part 1 test cases
-1. 100 pts: passes Part 1 and Part 2 test cases
-1. 101 pts: provide your own **original** implementation of `strstr()`
+1. Points earned from autograder test cases
