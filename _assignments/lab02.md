@@ -1,6 +1,6 @@
 ---
 layout: assignment
-due: 2022-02-07 23:59:59 -0800
+due: 2022-09-06 23:59:59 -0800
 permalink: assignments/lab02.html
 title: Lab02 - Strings
 github_url: https://classroom.github.com/a/jtnErzsf
