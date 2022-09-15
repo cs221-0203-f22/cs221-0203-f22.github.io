@@ -46,4 +46,5 @@ failed to open: /usr/bin/lab03.csv
 ```
 
 ## Rubric
-1. Your repo will receive the score shown by the autograder
+1. Your lab will receive the score shown by the autograder
+1. Deductions may be made if your code does not meet the above requirements
