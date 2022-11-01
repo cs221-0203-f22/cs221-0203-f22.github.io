@@ -126,10 +126,8 @@ Here is the EBNF for the scanner of our language:
 1. We will derive a *recursive descent parser* from the EBNF for expressions given above to construct a tree of `parse_node_st` structs. As with scanning, we will write a function for each production in the grammar. 
 1. We will have two parse functions:
     ```c
-    struct parse_node_st * parse_operand(struct parse_table_st *pt, 
-                                         struct scan_table_st *st);
-    struct parse_node_st * parse_expression(struct parse_table_st *pt, 
-                                            struct scan_table_st *st);
+    struct parse_node_st * parse_operand(struct scan_table_st *st);
+    struct parse_node_st * parse_expression(struct scan_table_st *st);
     ```
 Given a sequence of tokens in a `scan_table_st`, we will recursively construct a parse tree by allocating `parse_node_st` structs.
 
